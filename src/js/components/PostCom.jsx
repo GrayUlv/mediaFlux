@@ -6,7 +6,7 @@ class PostComponent extends React.Component{
     
     render(){
         return (
-            <div className="card w-100">
+            <div className="card w-100 mt-3">
                 <div className="card-body">
                     <h5 className="card-title">Post it</h5>
                     <div>

@@ -17,13 +17,13 @@ export default class Home extends Flux.View {
         <div>
             <NavComponent/>
             <div className="row">
-                <div className="col-lg-2">
+                <div className="col-lg-3">
                     <LeftSideBar/>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-6">
                     <CenterView/>
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-3">
                     <RightSideBar/>
                 </div>
             </div>

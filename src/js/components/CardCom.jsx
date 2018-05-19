@@ -12,7 +12,7 @@ class CardComponent extends React.Component{
             undef=this.props.codeName;
         }
         return (
-            <div className="card" >
+            <div className="card mt-3 mx-auto" >
                 {(this.props.imgUrl) ? <img className="card-img-top" src={this.props.imgUrl } alt="Card image cap"/> : ""}
                 <div className="card-body">
                     <h5 className="card-title">{(this.props.codeName) ? this.props.codeName : "no Name"}</h5>
