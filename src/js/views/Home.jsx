@@ -24,7 +24,7 @@ export default class Home extends Flux.View {
                     <CenterView/>
                 </div>
                 <div className="col-lg-2">
-                    kgjeihgngnetn
+                    <RightSideBar/>
                 </div>
             </div>
         </div>
