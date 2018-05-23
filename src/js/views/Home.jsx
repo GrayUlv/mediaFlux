@@ -18,7 +18,7 @@ export default class Home extends Flux.View {
             <NavComponent/>
             <div className="row">
                 <div className="col-lg-3">
-                    <LeftSideBar/>
+                    <LeftSideBar selector="chat"/>
                 </div>
                 <div className="col-lg-6">
                     <CenterView/>

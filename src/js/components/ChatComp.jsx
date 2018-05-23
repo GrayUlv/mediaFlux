@@ -20,6 +20,9 @@ class ChatComponent extends React.Component{
                 <SnipIt con1="lurm ipsum"/>
                 <SnipIt con1="lurm ipsum"/>
                 <SnipIt con1="lurm ipsum"/>
+                <SnipIt con1="lurm ipsum"/>
+                <SnipIt con1="lurm ipsum"/>
+                <SnipIt con1="lurm ipsum"/>
             </div>
                
         );

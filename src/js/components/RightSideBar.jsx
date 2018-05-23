@@ -7,8 +7,9 @@ class RightSideBar extends React.Component{
     
     render(){
         return (
-            <ChatComponent/>
-                
+            <div className="text-white bg-dark">
+                <ChatComponent/>
+            </div>    
                         
         );
     }

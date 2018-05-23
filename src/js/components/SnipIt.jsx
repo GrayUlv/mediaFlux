@@ -8,8 +8,8 @@ class SnipIt extends React.Component{
     render(){
         
         return (
-            <ul className="list-group list-group-flush">
-                <li className="list-group-item">{(this.props.con1) ? this.props.con1 : "no info"}</li>
+            <ul className="list-group list-group-flush bg-dark text-white">
+                <li className="list-group-item bg-dark text-white">{(this.props.con1) ? this.props.con1 : "no info"}</li>
             </ul>
                 
         );
